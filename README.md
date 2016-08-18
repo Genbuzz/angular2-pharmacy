@@ -4,7 +4,7 @@
 
 ### Application that allow users to create, modify and store medicines
 
-In this repository, you can see how to start an Angular 2 project using **Typescript**.
+In this repository, you can see how to start an **Angular 2** project using **Typescript**.
 
 - [x] Simple component
 - [x] Classes
