@@ -11,7 +11,7 @@ import { Medicine } from './medicine.model';
 @Component({
     moduleId: module.id,
     selector: 'my-medicines',
-    templateUrl: 'medicines.component.html',
+    templateUrl: '../partials/medicines.component.html',
     styleUrls: ['../css/medicines.component.css']
 })
 export class MedicinesComponent implements OnInit {

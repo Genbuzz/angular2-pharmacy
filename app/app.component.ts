@@ -12,5 +12,5 @@ import { MedicinesComponent } from './medicines/medicines.component';
 })
 export class AppComponent { 
     // We need to create 'name' property
-    name = "Nombre de la medicina";
+    name = "Medicina";
 }
