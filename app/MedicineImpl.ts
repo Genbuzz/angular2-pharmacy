@@ -1,0 +1,3 @@
+class MedicineImpl implements Medicine {
+    
+}

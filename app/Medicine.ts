@@ -1,4 +1,4 @@
-interface Medicine{
+export interface Medicine{
     getCode(): number;
     getName(): string;
     getPrice(): number;
