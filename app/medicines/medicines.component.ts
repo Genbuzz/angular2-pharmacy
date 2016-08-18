@@ -12,7 +12,7 @@ import { Medicine } from './medicine.model';
     moduleId: module.id,
     selector: 'my-medicines',
     templateUrl: 'medicines.component.html',
-    styleUrls: ['medicines.component.css']
+    styleUrls: ['../css/medicines.component.css']
 })
 export class MedicinesComponent implements OnInit {
     medicines: Medicine[];     
