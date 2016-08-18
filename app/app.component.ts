@@ -1,3 +1,7 @@
+/**
+ * This component works like main 
+ */
+
 import { Component } from '@angular/core';
 
 import { MedicinesComponent } from './medicines/medicines.component';
