@@ -1,7 +1,6 @@
 /**
  * We are gonna create a list of medicines, so
  * we need to create a component first.
- * 
  */
 
 import { Component, OnInit } from '@angular/core';
