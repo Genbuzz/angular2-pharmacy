@@ -2,7 +2,7 @@
 
 > *"Be DRY my friend"*
 
-### Pharmacy is an app that allow users to create, modify and store medicines
+### Application that allow users to create, modify and store medicines
 
 In this repository, you can see how to start an Angular 2 project using **Typescript**.
 
