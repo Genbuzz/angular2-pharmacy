@@ -1,3 +1,3 @@
-class MedicineImpl implements Medicine {
+class MedicineImpl {
     
 }
