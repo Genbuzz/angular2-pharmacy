@@ -1,6 +1,7 @@
 <ul class="medicines">
     <li *ngFor="let medicine of medicines"
-    (click)="onSelect(medicine)">
+    (click)="onSelect(medicine)"
+    [class.selected]="medicine===selectedMedicine">
         <span class="badge">{{medicine.id}}</span>{{medicine.name}}
     </li>
 </ul>
