@@ -1,6 +1,6 @@
 <ul class="medicines">
     <!-- Click function it's like ngClick in AngularJS -->
-     <!-- Data binding -->
+    <!-- Data binding -->
     <li *ngFor="let medicine of medicines"
         (click)="onSelect(medicine)"
         [class.selected]="medicine===selectedMedicine">
