@@ -1,6 +1,8 @@
 <ul class="medicines">
     <li *ngFor="let medicine of medicines"
+    <!-- click function: It's like ngClick in AngularJS -->
     (click)="onSelect(medicine)"
+    <!-- Data binding -->
     [class.selected]="medicine===selectedMedicine">
         <span class="badge">{{medicine.id}}</span>{{medicine.name}}
     </li>
