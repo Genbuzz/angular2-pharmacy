@@ -16,6 +16,7 @@ import { MedicineImpl } from './medicine.model';
 export class MedicinesComponent implements OnInit {
     medicines: MedicineImpl[];     
     selectedMedicine: MedicineImpl;
+    text;
     constructor() { }
 
     ngOnInit() {
@@ -31,5 +32,9 @@ export class MedicinesComponent implements OnInit {
 
      onSelect(medicine: MedicineImpl){
          this.selectedMedicine = medicine;
+     }
+
+     addMedicine(){
+         console.log(this.text);
      }
 }
