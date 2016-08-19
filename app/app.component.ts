@@ -3,7 +3,6 @@
  */
 
 import { Component } from '@angular/core';
-
 import { MedicinesComponent } from './medicines/medicines.component';
 
 @Component({
