@@ -1,6 +1,6 @@
-import { Medicines } from '../medicines/medicines.interface';
+import { Medicine } from '../medicines/medicine.interface';
 
-export class MedicineImpl implements Medicines {
+export class MedicineImpl implements Medicine {
     id: number;
     name: string;
 }
