@@ -5,7 +5,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { Medicine } from './medicine.model';
+import { MedicineImpl } from './medicine.model';
 
 @Component({
     moduleId: module.id,
@@ -14,8 +14,8 @@ import { Medicine } from './medicine.model';
     styleUrls: ['../css/medicines.component.css']
 })
 export class MedicinesComponent implements OnInit {
-    medicines: Medicine[];     
-    selectedMedicine: Medicine;
+    medicines: MedicineImpl[];     
+    selectedMedicine: MedicineImpl;
     constructor() { }
 
     ngOnInit() {
@@ -29,7 +29,7 @@ export class MedicinesComponent implements OnInit {
         ];
      }
 
-     onSelect(medicine: Medicine){
+     onSelect(medicine: MedicineImpl){
          this.selectedMedicine = medicine;
      }
 }

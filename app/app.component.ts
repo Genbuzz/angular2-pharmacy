@@ -7,10 +7,7 @@ import { MedicinesComponent } from './medicines/medicines.component';
 
 @Component({
     selector: 'my-app',
-    template: `
-    <h1>{{name}}</h1>
-    <my-medicines></my-medicines>
-    `,
+    templateUrl: './app/app.component.html',
     directives: [MedicinesComponent]
 })
 export class AppComponent { 
